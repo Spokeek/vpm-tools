@@ -5,4 +5,4 @@ This project is a CLI tool to provide helping features based on the VPM standard
 # Technologies
 
 - C# Dotnet
-- 
+- VPM Core
