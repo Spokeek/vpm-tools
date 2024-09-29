@@ -7,13 +7,10 @@ var app = builder.Build();
 
 app.AddCommand((string repoListPath) =>
 {
-VRCRepoList repoList = new VRCRepoList();
-repoList.author = "Spokeek VPM Packages";
-repoList.id = "fr.spokeek.vpm-packages";
-repoList.url = "https://spokeek.github.io/vpm-repository";
-
-repoList.AddPackage(
-);
+    VRCRepoList repoList = new VRCRepoList();
+    repoList.author = "Spokeek VPM Packages";
+    repoList.id = "fr.spokeek.vpm-packages";
+    repoList.url = "https://spokeek.github.io/vpm-repository";
 
     repoList.Save(repoListPath);
 });
