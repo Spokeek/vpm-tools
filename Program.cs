@@ -1,11 +1,10 @@
 ﻿using Cocona;
 using VRC.PackageManagement.Core.Types.Packages;
-using VRC.PackageManagement.Core.Types.Providers;
 
 var builder = CoconaApp.CreateBuilder();
 var app = builder.Build();
 
-app.AddCommand((string repoListPath) =>
+app.AddCommand("build-repolist", (string sourcePath, string repoListPath) =>
 {
     VRCRepoList repoList = new VRCRepoList();
     repoList.author = "Spokeek VPM Packages";

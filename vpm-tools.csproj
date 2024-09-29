@@ -16,8 +16,12 @@
 
   <ItemGroup>
     <Reference Include="vpm-core-lib">
-      <HintPath>C:\Users\Spokeek\Downloads\vpm-core-lib.dll</HintPath>
+      <HintPath>lib\vpm-core-lib.dll</HintPath>
     </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="lib\" />
   </ItemGroup>
 
 </Project>
